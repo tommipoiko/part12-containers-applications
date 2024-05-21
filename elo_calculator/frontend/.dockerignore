@@ -1,0 +1,11 @@
+.idea
+__pycache__
+data
+tests
+README.md
+Makefile
+.gitignore
+node_modules
+db
+build
+elo_calculator_db
