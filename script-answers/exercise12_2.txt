@@ -1,0 +1,10 @@
+Script started on 2024-05-21 09:16:16+03:00 [TERM="xterm-256color" TTY="/dev/pts/9" COLUMNS="127" LINES="59"]
+[?2004h]0;poikolai@C-PF3FEJYY: ~[01;32mpoikolai@C-PF3FEJYY[00m:[01;34m~[00m$ [7mdocker container run -it ubuntu bash[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdocker container run -it ubuntu bash
+[?2004l[?2004h]0;root@86e50ae4e0f4: /root@86e50ae4e0f4:/# mkdir /usr/src/app
+[?2004l[?2004h]0;root@86e50ae4e0f4: /root@86e50ae4e0f4:/# touch /usr/src/app/index.js
+[?2004l[?2004h]0;root@86e50ae4e0f4: /root@86e50ae4e0f4:/# [Kexit
+[?2004lexit
+[?2004h]0;poikolai@C-PF3FEJYY: ~[01;32mpoikolai@C-PF3FEJYY[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-05-21 09:16:43+03:00 [COMMAND_EXIT_CODE="0"]
