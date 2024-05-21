@@ -12,7 +12,10 @@ services:
     environment:
       - REDIS_URL=redis://redis:6379
       - MONGO_URL=mongodb://mongodb:3456
-  mongo:
+    depends_on:
+      - mongodb
+      - redis
+  mongodb:
     image: 'mongo'
     ports:
       - '3456:27017'
