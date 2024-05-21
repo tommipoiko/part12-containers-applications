@@ -1,6 +1,6 @@
 services:
   app:
-    image: 'hello-back-dev'
+    image: hello-back-dev
     build:
       context: .
       dockerfile: dev.Dockerfile

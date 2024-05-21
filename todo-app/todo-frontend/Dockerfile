@@ -1,4 +1,3 @@
-# Stage 1: Install dependencies and run tests
 FROM node:20.13.1 AS test
 
 WORKDIR /app
@@ -10,5 +9,8 @@ FROM node:20.13.1 AS build
 
 WORKDIR /app
 COPY --from=test /app /app
-ENV VITE_BACKEND_URL=http://localhost:3000
-CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0", "--port", "5173"]
+ENV VITE_BACKEND_URL=http://localhost:8080/api
+RUN npm run build
+RUN npm install -g serve
+EXPOSE 5173
+CMD ["serve", "-s", "dist", "-l", "5173"]
